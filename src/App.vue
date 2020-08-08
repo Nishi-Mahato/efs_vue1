@@ -79,7 +79,7 @@
 <style scoped>
 .back{
  /* background-image: url('https://mdbootstrap.com/img/Photos/Horizontal/Nature/full%20page/img(11).jpg');*/
-  background-image: require('@/assets/images/bg.png');
+  background-image: url('assets/images/bg.png');
   background-size: cover;
   }
 </style>
