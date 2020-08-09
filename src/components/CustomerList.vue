@@ -142,7 +142,7 @@
         }
       },
       updateCustomer(customer) {
-        router.push('/customer-create/' + customer.cust_number);
+        router.push('/customer-create/' + customer.pk);
       },
       deleteCustomer(customer) {
         apiService.deleteCustomer(customer.pk).then(response => {
